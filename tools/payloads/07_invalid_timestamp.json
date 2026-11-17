@@ -1,0 +1,12 @@
+{
+  "message": {
+    "token": "DEVICE_TOKEN",
+    "android": { "priority": "high" },
+    "data": {
+      "id": "notification_107",
+      "title": "Invalid timestamp",
+      "description": "timestamp is not a number, so the time the message was sent is used.",
+      "timestamp": "yesterday"
+    }
+  }
+}

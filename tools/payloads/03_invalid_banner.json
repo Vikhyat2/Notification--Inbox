@@ -1,0 +1,13 @@
+{
+  "message": {
+    "token": "DEVICE_TOKEN",
+    "android": { "priority": "high" },
+    "data": {
+      "id": "notification_103",
+      "title": "Invalid banner URL",
+      "description": "bannerImg is not a valid URL; the rest of the content still shows.",
+      "bannerImg": "not-a-valid-url",
+      "timestamp": "1791890000000"
+    }
+  }
+}

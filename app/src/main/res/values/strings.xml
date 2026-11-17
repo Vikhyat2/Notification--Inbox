@@ -1,3 +1,47 @@
 <resources>
-    <string name="app_name">NotificationInbox</string>
+    <string name="app_name">Notification Inbox</string>
+
+    <!-- Channel values are fixed by the assignment spec. -->
+    <string name="notification_channel_id" translatable="false">assignment</string>
+    <string name="notification_channel_name">Assignment</string>
+    <string name="notification_channel_description">Push notifications received by the app</string>
+
+    <string name="notification_fallback_title">New notification</string>
+    <string name="untitled_notification">Untitled notification</string>
+    <string name="no_description">No description provided</string>
+
+    <string name="inbox_title">Inbox</string>
+    <string name="unread_count">%1$d unread</string>
+    <string name="filter_all">All</string>
+    <string name="filter_unread">Unread</string>
+    <string name="filter_unread_count">Unread (%1$d)</string>
+    <string name="menu_more">More options</string>
+    <string name="menu_mark_all_read">Mark all as read</string>
+    <string name="menu_clear_inbox">Clear inbox</string>
+    <string name="menu_copy_token">Copy FCM token</string>
+    <string name="token_copied">FCM token copied to clipboard</string>
+    <string name="token_unavailable">Couldn\'t fetch FCM token. Check your connection and Firebase setup.</string>
+
+    <string name="empty_inbox_title">No notifications yet</string>
+    <string name="empty_inbox_body">Push notifications you receive will appear here.</string>
+    <string name="empty_unread_title">You\'re all caught up</string>
+    <string name="empty_unread_body">There are no unread notifications.</string>
+
+    <string name="clear_dialog_title">Clear inbox?</string>
+    <string name="clear_dialog_body">All notifications will be permanently removed from this device.</string>
+    <string name="clear">Clear</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="back">Back</string>
+
+    <string name="details_title">Notification</string>
+    <string name="details_not_found">This notification is no longer available.</string>
+    <string name="unread_indicator">Unread</string>
+    <string name="banner_image">Banner image</string>
+
+    <string name="permission_banner_title">Notifications are turned off</string>
+    <string name="permission_banner_body">Allow notifications to be alerted when new messages arrive. They will still be saved to your inbox.</string>
+    <string name="permission_open_settings">Open settings</string>
+
+    <string name="time_just_now">Just now</string>
 </resources>

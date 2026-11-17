@@ -1,0 +1,12 @@
+{
+  "message": {
+    "token": "DEVICE_TOKEN",
+    "android": { "priority": "high" },
+    "data": {
+      "id": "notification_102",
+      "title": "No banner",
+      "description": "This payload has no bannerImg field; a placeholder is shown instead.",
+      "timestamp": "1791880000000"
+    }
+  }
+}

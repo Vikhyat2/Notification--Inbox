@@ -1,0 +1,9 @@
+{
+  "message": {
+    "token": "DEVICE_TOKEN",
+    "android": { "priority": "high" },
+    "data": {
+      "title": "Only a title"
+    }
+  }
+}

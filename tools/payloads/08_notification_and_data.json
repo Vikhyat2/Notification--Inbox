@@ -1,0 +1,17 @@
+{
+  "message": {
+    "token": "DEVICE_TOKEN",
+    "notification": {
+      "title": "Notification + data message",
+      "body": "With the app in the background, FCM shows this itself; it is added to the inbox when tapped."
+    },
+    "android": { "notification": { "channel_id": "assignment" } },
+    "data": {
+      "id": "notification_108",
+      "title": "Notification + data message",
+      "description": "With the app in the background, FCM shows this itself; it is added to the inbox when tapped.",
+      "bannerImg": "https://picsum.photos/seed/notification108/1200/675",
+      "timestamp": "1791920000000"
+    }
+  }
+}

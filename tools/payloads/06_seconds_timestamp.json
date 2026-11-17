@@ -1,0 +1,13 @@
+{
+  "message": {
+    "token": "DEVICE_TOKEN",
+    "android": { "priority": "high" },
+    "data": {
+      "id": "notification_106",
+      "title": "Timestamp in seconds",
+      "description": "timestamp is in epoch seconds and is converted to milliseconds.",
+      "bannerImg": "https://picsum.photos/seed/notification106/1200/675",
+      "timestamp": "1791910000"
+    }
+  }
+}

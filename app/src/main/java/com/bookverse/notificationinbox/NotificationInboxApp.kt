@@ -1,17 +1,19 @@
 package com.bookverse.notificationinbox
 
 import android.app.Application
-import com.bookverse.notificationinbox.di.AppContainer
-import com.bookverse.notificationinbox.notification.NotificationHelper
+import com.bookverse.notificationinbox.fcm.SystemNotifier
+import dagger.hilt.android.HiltAndroidApp
+import javax.inject.Inject
 
+@HiltAndroidApp
 class NotificationInboxApp : Application() {
-    lateinit var container: AppContainer
-        private set
+
+    @Inject lateinit var systemNotifier: SystemNotifier
 
     override fun onCreate() {
         super.onCreate()
-        container = AppContainer(this)
-        NotificationHelper.createChannel(this)
-
+        // Create the channel up front so it exists even for notifications FCM
+        // displays itself while the app is in the background.
+        systemNotifier.createChannel()
     }
 }

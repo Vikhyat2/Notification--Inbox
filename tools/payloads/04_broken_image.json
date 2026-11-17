@@ -1,0 +1,13 @@
+{
+  "message": {
+    "token": "DEVICE_TOKEN",
+    "android": { "priority": "high" },
+    "data": {
+      "id": "notification_104",
+      "title": "Image fails to load",
+      "description": "The URL is well-formed but returns 404, so loading fails and the placeholder stays.",
+      "bannerImg": "https://example.com/this-image-does-not-exist.jpg",
+      "timestamp": "1791900000000"
+    }
+  }
+}
