@@ -15,3 +15,6 @@
 local.
 app/google-services.json
 app/.gitignore
+tools/service-account.json
+
+
